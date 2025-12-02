@@ -6,7 +6,8 @@
     padding: 0;
 
 }
-body{
+
+body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,6 +85,7 @@ h1 {
     border-radius: 25px;
     font-size: 20px;
     color: white;
+
 }
 
 .purple-button {
@@ -141,6 +143,10 @@ h1 {
     border: 1px solid white;
 }
 
+.purple-text:hover {
+    background-color: #9953F1;
+}
+
 .icon {
     display: flex;
     justify-content: end;
@@ -175,6 +181,8 @@ h1 {
     /* margin-left: 25px; */
     border: 2px solid #C4C4C4;
     padding: 15px;
+    overflow-y: auto;
+    max-height: 250px;
 
 }
 
@@ -198,9 +206,8 @@ h1 {
     display: flex;
     gap: 10px;
 }
-.value{
+
+.value {
     word-break: break-all;
     margin-right: 15px;
 }
-
-
